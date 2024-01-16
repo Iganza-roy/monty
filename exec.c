@@ -62,12 +62,12 @@ void call_op(op_func exec, char *pass, char *op, int line, int style)
 				err_code(5, line);
 		}
 
-		node = node_create(atoi(pass) * monitor);
+		node = mk_node(atoi(pass) * monitor);
 
 		if (style == 0)
 			exec(&node, line);
 		if (style == 1)
-			add_on_queue(&node, line);
+			add_queue(&node, line);
 	}
 	else
 	{
