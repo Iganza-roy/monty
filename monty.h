@@ -72,5 +72,8 @@ void add_queue(stack_t **nnode, __attribute__((unused))unsigned int ln_num);
 void file_open(char *f_name);
 void f_read(FILE *f_des);
 
+/* stack ops */
+void append_to_stack(stack_t **nnode, __attribute__((unused))unsigned int lnum);
+void pall_stack(stack_t **top_stack, unsigned int lnum);
 
 #endif
