@@ -13,6 +13,8 @@ void find_op(char *op_code, char *passed, int style, int line_no)
 	int monitor;
 
 	instruction_t op_list[] = {
+		{"push", append_to_stack},
+		{"pall", pall_stack},
 		{NULL, NULL}
 	};
 
