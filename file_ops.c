@@ -31,7 +31,7 @@ void f_read(FILE *f_des)
 
 	for (line_num = 1; getline(&buffer, &len, f_des) != -1; line_num++)
 	{
-		fmt = parse_line(buffer, line_num, fmt);
+		fmt = tokenize(buffer, line_num, fmt);
 	}
 	free(buffer);
 }
