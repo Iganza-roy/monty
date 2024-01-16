@@ -33,7 +33,7 @@ void pall_stack(stack_t **top_stack, unsigned int lnum)
 	stack_t *holder;
 
 	(void) lnum;
-	if (tp_stack == NULL)
+	if (top_stack == NULL)
 		exit(EXIT_FAILURE);
 
 	holder = *top_stack;
