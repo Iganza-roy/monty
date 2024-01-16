@@ -47,4 +47,26 @@ int main(int ac, char *av[]);
 extern stack_t *head;
 typedef (*op_func)(stack_t **, unsigned int);
 
+/* Error handlers */
+
+void err_code(int code_err, ...);
+void pr_more_err(int code_err, ...);
+void strerr(int code_err, ...);
+
+/* Executables */
+
+void find_op(char *op_code, char *passed, int style, int line_no);
+void call_op(op_func exec, char *pass, char *op, int line, int style);
+
+/* Tokenizer */
+
+int tokenize(char *bf, int line_no, int style);
+
+/* Node Manager */
+
+stack_t *mk_node(int num);
+void node_free(void);
+void add_queue(stack_t **nnode, __attribute__((unused))unsigned int ln_num);
+
+
 #endif
