@@ -45,7 +45,7 @@ typedef struct instruction_s
 int main(int ac, char *av[]);
 
 extern stack_t *head;
-typedef (*op_func)(stack_t **, unsigned int);
+typedef void (*op_func)(stack_t **, unsigned int);
 
 /* Error handlers */
 
