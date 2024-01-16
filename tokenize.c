@@ -10,7 +10,7 @@
 int tokenize(char *bf, int line_no, int style)
 {
 	char *pass, *op_code;
-	const char *delimitor = '\n';
+	const char *delimitor = "\n ";
 
 	if (bf == NULL)
 		err_code(4);
@@ -25,7 +25,7 @@ int tokenize(char *bf, int line_no, int style)
 		return (1);
 
 	if (strcmp(op_code, "stack") == 0)
-		returnn (0);
+		return (0);
 
 	find_op(op_code, pass, line_no, style);
 	return (style);
