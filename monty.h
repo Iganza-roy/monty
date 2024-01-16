@@ -68,5 +68,9 @@ stack_t *mk_node(int num);
 void node_free(void);
 void add_queue(stack_t **nnode, __attribute__((unused))unsigned int ln_num);
 
+/* File ops */
+void file_open(char *f_name);
+void f_read(FILE *f_des);
+
 
 #endif
