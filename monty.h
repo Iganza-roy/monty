@@ -42,6 +42,6 @@ typedef struct instruction_s
 
 /* main file */
 
-int main(int sc, char *av[]);
+int main(int ac, char *av[]);
 
 #endif
