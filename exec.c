@@ -7,7 +7,7 @@
  * @style: storage format
  * @line_no: line number
  */
-void find_op(char *op_code, char *passed, int style, int line_no)
+void find_op(char *op_code, char *passed, int line_no, int style)
 {
 	int x;
 	int monitor;
@@ -41,7 +41,7 @@ void find_op(char *op_code, char *passed, int style, int line_no)
  * @line: no. line to op
  * @style: format specifier
  */
-void call_op(op_func exec, char *pass, char *op, int line, int style)
+void call_op(op_func exec, char *op, char *pass, int line, int style)
 {
 	stack_t *node;
 	int x, monitor = 1;
