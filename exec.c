@@ -15,6 +15,7 @@ void find_op(char *op_code, char *passed, int line_no, int style)
 	instruction_t op_list[] = {
 		{"push", append_to_stack},
 		{"pall", pall_stack},
+		{"pint", pint_me},
 		{NULL, NULL}
 	};
 

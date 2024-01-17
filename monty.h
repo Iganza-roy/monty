@@ -76,4 +76,6 @@ void f_read(FILE *f_des);
 void append_to_stack(stack_t **nnode, __attribute__((unused))unsigned int lnum);
 void pall_stack(stack_t **top_stack, unsigned int lnum);
 
+/* opcodes */
+void pint_me(stack_t **top_stack, unsigned int line_no);
 #endif
