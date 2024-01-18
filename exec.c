@@ -19,6 +19,7 @@ void find_op(char *op_code, char *passed, int line_no, int style)
 		{"pop", pop_stack},
 		{"swap", swap_elem},
 		{"nop", no_work},
+		{"add", add_op},
 		{NULL, NULL}
 	};
 
