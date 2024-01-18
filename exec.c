@@ -23,6 +23,7 @@ void find_op(char *op_code, char *passed, int line_no, int style)
 		{"sub", sub_op},
 		{"div", div_op},
 		{"mul", mul_elem},
+		{"mod", mod_elem},
 		{NULL, NULL}
 	};
 
