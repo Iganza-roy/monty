@@ -80,7 +80,7 @@ void pall_stack(stack_t **top_stack, unsigned int lnum);
 void pint_me(stack_t **top_stack, unsigned int line_no);
 void pop_stack(stack_t **stack, unsigned int l_num);
 void swap_elem(stack_t **stack, unsigned int l_num);
-void no_work(stack_t **top_stack, unsigned int line_no);
+void no_work(void);
 
 /* Math ops */
 void add_op(stack_t **top_stack, unsigned int line_no);
