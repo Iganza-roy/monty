@@ -10,7 +10,7 @@ void sub_op(stack_t **top_stack, unsigned int line_no)
 	int result;
 
 	if (top_stack == NULL || *top_stack == NULL || (*top_stack)->next == NULL)
-		pr_more_err(8, line_no, "add");
+		pr_more_err(8, line_no, "sub");
 
 	(*top_stack) = (*top_stack)->next;
 	result = (*top_stack)->n - (*top_stack)->prev->n;
