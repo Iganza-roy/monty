@@ -85,5 +85,6 @@ void no_work(stack_t **top_stack, unsigned int line_no);
 /* Math ops */
 void add_op(stack_t **top_stack, unsigned int line_no);
 void sub_op(stack_t **top_stack, unsigned int line_no);
+void div_op(stack_t **top_stack, unsigned int line_no);
 
 #endif
