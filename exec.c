@@ -46,7 +46,7 @@ void find_op(char *op_code, char *passed, int line_no, int style)
  * call_op - calls required op
  * @exec: pointer to called function
  * @op: string to opcode
- * @num: string to number
+ * @pass: string to number
  * @line: no. line to op
  * @style: format specifier
  */
