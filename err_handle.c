@@ -1,17 +1,8 @@
 #include "monty.h"
 
 /**
- * err_code - Prints appropiate error messages determined by their error code.
- * @code_err: The error codes are the following:
- * (1) => The user does not give any file or more than one file to the program.
- * (2) => The file provided is not a file that can be opened or read.
- * (3) => The file provided contains an invalid instruction.
- * (4) => When the program is unable to malloc more memory.
- * (5) => When the parameter passed to the instruction "push" is not an int.
- * (6) => When the stack it empty for pint.
- * (7) => When the stack it empty for pop.
- * (8) => When stack is too short for operation.
- * Return: nothing
+ * err_code - prints error message
+ * @code_err: Error codes
  */
 void err_code(int code_err, ...)
 {
@@ -48,13 +39,8 @@ void err_code(int code_err, ...)
 }
 
 /**
- * pr_more_err - handles errors.
- * @code_err: The error codes are the following:
- * (6) => When the stack it empty for pint.
- * (7) => When the stack it empty for pop.
- * (8) => When stack is too short for operation.
- * (9) => Division by zero.
- * Return: nothing
+ * pr_more_err - error handler
+ * @code_err: error codes
  */
 void pr_more_err(int code_err, ...)
 {
@@ -90,11 +76,8 @@ void pr_more_err(int code_err, ...)
 }
 
 /**
- * strerr - handles errors.
- * @code_err: The error codes are the following:
- * (10) ~> The number inside a node is outside ASCII bounds.
- * (11) ~> The stack is empty.
- * Return: nothing
+ * strerr - error handling
+ * @code_err: Error codes
  */
 void strerr(int code_err, ...)
 {
