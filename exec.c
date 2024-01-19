@@ -24,6 +24,7 @@ void find_op(char *op_code, char *passed, int line_no, int style)
 		{"div", div_op},
 		{"mul", mul_elem},
 		{"mod", mod_elem},
+		{"rotl", rotl_stack},
 		{NULL, NULL}
 	};
 

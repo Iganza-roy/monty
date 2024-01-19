@@ -89,5 +89,6 @@ void sub_op(stack_t **top_stack, unsigned int line_no);
 void div_op(stack_t **top_stack, unsigned int line_no);
 void mul_elem(stack_t **stack, unsigned int l_num);
 void mod_elem(stack_t **stack, unsigned int l_num);
+void rotl_stack(stack_t **stack, __attribute__((unused))unsigned int l_num);
 
 #endif
