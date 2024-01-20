@@ -1,4 +1,4 @@
-![MONTY](https://cdn.dribbble.com/userupload/3936718/file/original-defbb3d4ac335f8b91b6e7412e1225e4.png?resize=1600x1200)
+![MONTY](https://user-images.githubusercontent.com/86312558/149395152-c1163d94-e5b8-4cb4-a95f-00e4534fb058.png)
 # Monty
 
 The goal of this project is to create an interpreter for Monty ByteCodes files.
