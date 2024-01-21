@@ -92,4 +92,7 @@ void mod_elem(stack_t **stack, unsigned int l_num);
 void rotl_stack(stack_t **stack, __attribute__((unused))unsigned int l_num);
 void rotr_stack(stack_t **stack, __attribute__((unused))unsigned int l_num);
 
+/* printin */
+void p_char(stack_t **stack, unsigned int l_num);
+
 #endif
