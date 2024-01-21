@@ -27,6 +27,7 @@ void find_op(char *op_code, char *passed, int line_no, int style)
 		{"rotl", rotl_stack},
 		{"rotr", rotr_stack},
 		{"pchar", p_char},
+		{"pstr", p_str},
 		{NULL, NULL}
 	};
 

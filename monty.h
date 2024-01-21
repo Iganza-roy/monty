@@ -94,5 +94,5 @@ void rotr_stack(stack_t **stack, __attribute__((unused))unsigned int l_num);
 
 /* printin */
 void p_char(stack_t **stack, unsigned int l_num);
-
+void p_str(stack_t **stack, __attribute__((unused))unsigned int l_num);
 #endif
